@@ -5,14 +5,18 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    try {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'instant',
+      });
+    } catch (error) {
+      window.scrollTo(0, 0);
+    }
   }, [pathname]);
 
   return null;
 };
 
 export default ScrollToTop;
-
-
-
-

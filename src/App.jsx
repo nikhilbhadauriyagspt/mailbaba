@@ -19,8 +19,8 @@ const Disclaimer = lazy(() => import('./policies/Disclaimer'));
 
 // Loading component
 const PageLoader = () => (
-  <div className="min-h-screen flex items-center justify-center">
-    <div className="w-12 h-12 border-4 border-blue-100 border-t-blue-600 rounded-full animate-spin"></div>
+  <div className="min-h-screen flex items-center justify-center bg-white">
+    <div className="w-10 h-10 border-2 border-zinc-100 border-t-blue-600 rounded-full animate-spin"></div>
   </div>
 );
 
@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="font-sans selection:bg-blue-100 selection:text-blue-600 bg-white min-h-screen flex flex-col">
+      <div className="font-sans selection:bg-blue-50 selection:text-blue-600 bg-white min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
           <Suspense fallback={<PageLoader />}>

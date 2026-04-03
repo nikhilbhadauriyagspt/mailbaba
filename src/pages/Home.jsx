@@ -1,6 +1,5 @@
 import Hero from '../components/Hero';
 import AllAboutDrivers from './AllAboutDrivers';
-import ContactSection from '../components/ContactSection';
 
 const Home = () => {
   return (
