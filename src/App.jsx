@@ -14,23 +14,8 @@ const Contact = lazy(() => import('./pages/Contact'));
 // Policies
 const PrivacyPolicy = lazy(() => import('./policies/PrivacyPolicy'));
 const TermsOfService = lazy(() => import('./policies/TermsOfService'));
-const RefundPolicy = lazy(() => import('./policies/RefundPolicy'));
 const CookiePolicy = lazy(() => import('./policies/CookiePolicy'));
 const Disclaimer = lazy(() => import('./policies/Disclaimer'));
-
-// Individual Service Pages
-const WashingMachine = lazy(() => import('./pages/services/WashingMachine'));
-const Refrigerator = lazy(() => import('./pages/services/Refrigerator'));
-const AirConditioner = lazy(() => import('./pages/services/AirConditioner'));
-const Television = lazy(() => import('./pages/services/Television'));
-const WaterPurifier = lazy(() => import('./pages/services/WaterPurifier'));
-const MicrowaveOven = lazy(() => import('./pages/services/MicrowaveOven'));
-const Dishwasher = lazy(() => import('./pages/services/Dishwasher'));
-const CoffeeMaker = lazy(() => import('./pages/services/CoffeeMaker'));
-const OvenGasStove = lazy(() => import('./pages/services/OvenGasStove'));
-const ClothesDryer = lazy(() => import('./pages/services/ClothesDryer'));
-const KitchenChimney = lazy(() => import('./pages/services/KitchenChimney'));
-const OtherAppliances = lazy(() => import('./pages/services/OtherAppliances'));
 
 // Loading component
 const PageLoader = () => (
@@ -57,23 +42,8 @@ function App() {
               {/* Policy Routes */}
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/terms-of-service" element={<TermsOfService />} />
-              <Route path="/refund-policy" element={<RefundPolicy />} />
               <Route path="/cookie-policy" element={<CookiePolicy />} />
               <Route path="/disclaimer" element={<Disclaimer />} />
-              
-              {/* Individual Service Routes */}
-              <Route path="/service/washing-machine" element={<WashingMachine />} />
-              <Route path="/service/refrigerator" element={<Refrigerator />} />
-              <Route path="/service/air-conditioner" element={<AirConditioner />} />
-              <Route path="/service/television" element={<Television />} />
-              <Route path="/service/water-purifier" element={<WaterPurifier />} />
-              <Route path="/service/microwave-oven" element={<MicrowaveOven />} />
-              <Route path="/service/dishwasher" element={<Dishwasher />} />
-              <Route path="/service/coffee-maker" element={<CoffeeMaker />} />
-              <Route path="/service/oven-stove" element={<OvenGasStove />} />
-              <Route path="/service/clothes-dryer" element={<ClothesDryer />} />
-              <Route path="/service/kitchen-chimney" element={<KitchenChimney />} />
-              <Route path="/service/other-appliances" element={<OtherAppliances />} />
             </Routes>
           </Suspense>
         </main>
@@ -84,7 +54,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
