@@ -1,38 +1,52 @@
 import { Mail, ArrowRight, CheckCircle2, MapPin, MessageSquare, Sparkles } from 'lucide-react';
 import { useState } from 'react';
+import { CONTACT_API_URL } from '../config';
 
 const ContactSection = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
-  const encode = (data) => {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-      .join('&');
-  };
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
 
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contact', ...data }),
-    })
-      .then(() => {
+    const payload = {
+      first_name: data.firstName,
+      last_name: data.lastName,
+      email: data.email,
+      category: data.category,
+      message: data.message,
+      site_origin: window.location.hostname
+    };
+
+    try {
+      const response = await fetch(CONTACT_API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const result = await response.json();
+      if (result.status === 'success') {
         setIsSubmitting(false);
         setIsSuccess(true);
         setTimeout(() => setIsSuccess(false), 5000);
         e.target.reset();
-      })
-      .catch((error) => {
-        console.error(error);
+      } else {
+        console.error("Backend Error:", result.message);
         setIsSubmitting(false);
-      });
+        alert("Submission failed: " + result.message);
+      }
+    } catch (error) {
+      console.error("Submission Error:", error);
+      setIsSubmitting(false);
+      alert("An error occurred. Please try again later.");
+    }
   };
 
   return (
@@ -142,17 +156,32 @@ const ContactSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-[11px] font-bold text-zinc-500 tracking-[0.12em] uppercase ml-1">
-                      Full Name
+                      First Name
                     </label>
                     <input
                       required
-                      name="fullName"
+                      name="firstName"
                       type="text"
                       className="w-full bg-slate-50 border border-transparent px-5 py-4 rounded-2xl focus:bg-white focus:border-blue-200 focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-zinc-900 placeholder:text-zinc-400"
-                      placeholder="Enter your name"
+                      placeholder="Enter your first name"
                     />
                   </div>
 
+                  <div className="space-y-2">
+                    <label className="text-[11px] font-bold text-zinc-500 tracking-[0.12em] uppercase ml-1">
+                      Last Name
+                    </label>
+                    <input
+                      required
+                      name="lastName"
+                      type="text"
+                      className="w-full bg-slate-50 border border-transparent px-5 py-4 rounded-2xl focus:bg-white focus:border-blue-200 focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-zinc-900 placeholder:text-zinc-400"
+                      placeholder="Enter your last name"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-[11px] font-bold text-zinc-500 tracking-[0.12em] uppercase ml-1">
                       Email Address
@@ -165,18 +194,26 @@ const ContactSection = () => {
                       placeholder="name@company.com"
                     />
                   </div>
-                </div>
 
-                <div className="space-y-2">
-                  <label className="text-[11px] font-bold text-zinc-500 tracking-[0.12em] uppercase ml-1">
-                    Subject
-                  </label>
-                  <input
-                    name="subject"
-                    type="text"
-                    className="w-full bg-slate-50 border border-transparent px-5 py-4 rounded-2xl focus:bg-white focus:border-blue-200 focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-zinc-900 placeholder:text-zinc-400"
-                    placeholder="Briefly mention your issue"
-                  />
+                  <div className="space-y-2">
+                    <label className="text-[11px] font-bold text-zinc-500 tracking-[0.12em] uppercase ml-1">
+                      Problem Category
+                    </label>
+                    <select
+                      required
+                      name="category"
+                      className="w-full bg-slate-50 border border-transparent px-5 py-4 rounded-2xl focus:bg-white focus:border-blue-200 focus:ring-4 focus:ring-blue-50 outline-none transition-all font-semibold text-zinc-900 appearance-none"
+                    >
+                      <option value="" disabled selected>Select a category</option>
+                      <option value="Graphics">Graphics / Display</option>
+                      <option value="Audio">Audio / Sound</option>
+                      <option value="Network">Network / Wi-Fi</option>
+                      <option value="Storage">Storage / HDD / SSD</option>
+                      <option value="Peripheral">Printer / Scanner / Mouse</option>
+                      <option value="Security">Security / TPM</option>
+                      <option value="Other">Other Issues</option>
+                    </select>
+                  </div>
                 </div>
 
                 <div className="space-y-2">
