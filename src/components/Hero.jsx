@@ -9,7 +9,7 @@ const Hero = () => {
         <img 
           src="/ban1.avif" 
           alt="Technical Support Background" 
-          className="w-full h-full object-cover"
+          className="w-full h-auto object-cover"
         />
       </Link>
 
