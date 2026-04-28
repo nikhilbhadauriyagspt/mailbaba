@@ -16,7 +16,7 @@ const Contact = () => {
             Get in <span className="text-blue-800">Touch.</span>
           </h1>
           <p className="text-zinc-600 text-xl max-w-2xl mx-auto leading-relaxed">
-            Have a question or need technical assistance? Our team is dedicated to providing reliable support for your email challenges. Reach out and we will get back to you as soon as possible.
+            Have a question or need more information about our guides? We are dedicated to providing clear, educational resources for your email journey. Reach out and we will get back to you as soon as possible.
           </p>
         </div>
       </section>

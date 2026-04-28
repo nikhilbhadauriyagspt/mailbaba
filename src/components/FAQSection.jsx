@@ -29,7 +29,7 @@ const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section id="faq" className="py-24 bg-white w-full font-sans">
+    <section id="faq" className="py-12 md:py-24 bg-white w-full font-sans">
       <div className="max-w-[1800px] mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-12 gap-20">
           

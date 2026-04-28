@@ -27,7 +27,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-24 bg-zinc-50 w-full font-sans">
+    <section id="how-it-works" className="py-12 md:py-24 bg-zinc-50 w-full font-sans">
       <div className="max-w-[1800px] mx-auto px-6 lg:px-10">
         <div className="text-center mb-20">
           <p className="text-blue-800 font-semibold tracking-[0.2em] uppercase text-[12px] mb-4">Our Process</p>

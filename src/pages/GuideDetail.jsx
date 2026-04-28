@@ -91,14 +91,11 @@ const GuideDetail = () => {
                       to="/contact" 
                       className="flex items-center justify-center gap-2 w-full bg-blue-700 hover:bg-white hover:text-zinc-900 text-white py-4 rounded-xl font-bold transition-all"
                     >
-                      Contact Support <ArrowRight className="w-4 h-4" />
+                      Contact Us <ArrowRight className="w-4 h-4" />
                     </Link>
                     
                     <div className="mt-8 pt-8 border-t border-white/10">
-                      <div className="flex items-center gap-2 justify-center text-[12px] text-zinc-400 uppercase tracking-widest font-bold">
-                        <ShieldCheck className="w-4 h-4 text-blue-500" />
-                        Secure Support
-                      </div>
+                     
                     </div>
                   </div>
                 </div>

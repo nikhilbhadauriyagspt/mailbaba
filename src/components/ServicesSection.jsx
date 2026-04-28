@@ -8,7 +8,7 @@ const ServicesSection = () => {
   const displayServices = guidesData.slice(0, 6);
 
   return (
-    <section id="services" className="py-24 bg-white w-full">
+    <section id="services" className="py-12 md:py-24 bg-white w-full">
       <div className="max-w-[1800px] mx-auto px-6 lg:px-10">
         <div className="text-center mb-20">
           <p className="text-blue-800 font-semibold tracking-[0.2em] uppercase text-[12px] mb-4">Our Resources</p>

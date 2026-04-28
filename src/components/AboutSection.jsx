@@ -2,7 +2,7 @@ import { ShieldCheck, Target, Users, Zap } from 'lucide-react';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 bg-zinc-50 w-full font-sans text-zinc-900 overflow-hidden">
+    <section id="about" className="py-12 md:py-24 bg-zinc-50 w-full font-sans text-zinc-900 overflow-hidden">
       <div className="max-w-[1800px] mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Side: Images/Graphics */}
