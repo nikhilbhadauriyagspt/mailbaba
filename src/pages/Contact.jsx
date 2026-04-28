@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-zinc-600 uppercase tracking-widest mb-1">Email Us</p>
-                <a href="mailto:info@mailyaga.shop" className="text-lg font-semibold text-zinc-900 hover:text-blue-800 transition-colors">info@mailyaga.shop</a>
+                <a href="mailto:info@yagamail.shop" className="text-lg font-semibold text-zinc-900 hover:text-blue-800 transition-colors">info@yagamail.shop</a>
               </div>
             </div>
           </div>
