@@ -1,59 +1,58 @@
-import { ShieldCheck, Target, Users, Zap } from 'lucide-react';
+import { BookOpen, Shield, Lightbulb, Zap } from 'lucide-react';
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-12 md:py-24 bg-zinc-50 w-full font-sans text-zinc-900 overflow-hidden">
-      <div className="max-w-[1800px] mx-auto px-6 lg:px-10">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left Side: Images/Graphics */}
-          <div className="relative group w-full">
-            <div className="absolute -inset-4 bg-blue-600/5 rounded-[3rem] blur-2xl group-hover:bg-blue-600/10 transition-all duration-700"></div>
-            <div className="relative overflow-hidden rounded-[3rem] border border-white shadow-2xl shadow-blue-900/10 transition-transform duration-700 hover:scale-[1.01]">
-              <img 
-                src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=1200" 
-                alt="Our professional team" 
-                className="w-full h-[450px] md:h-[550px] object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-900/60 to-transparent"></div>
-              <div className="absolute bottom-8 left-8 right-8 p-6 rounded-[2rem] bg-white/10 backdrop-blur-xl border border-white/20">
-                <p className="text-white text-md md:text-lg font-medium italic">"Precision in every diagnosis, clarity in every solution."</p>
-              </div>
+    <section id="about" className="py-24 bg-zinc-50/50 w-full border-y border-zinc-100">
+      <div className="max-w-[1800px] mx-auto px-6 lg:px-16">
+        <div className="max-w-4xl mb-20">
+          <p className="text-blue-600 font-bold tracking-widest uppercase text-[12px] mb-4">About Our Mission</p>
+          <h2 className="text-3xl md:text-4xl  text-zinc-900 leading-[1.1] mb-8">
+            We simplify <span className="text-blue-700">digital communication</span> so you can focus on what matters most.
+          </h2>
+          <p className="text-base md:text-[18px] text-zinc-600 leading-relaxed max-w-3xl">
+            Our goal is to provide clear, reliable information that removes the confusion from everyday digital tasks. We believe everyone deserves to feel confident and secure while navigating their online tools.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16">
+          <div className="group p-2">
+            <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+              <BookOpen className="w-6 h-6 stroke-[2]" />
             </div>
+            <h3 className="text-lg font-bold text-zinc-900 mb-3">Structured Learning</h3>
+            <p className="text-[15px] text-zinc-600 leading-relaxed">
+              Step-by-step guidance designed to build your knowledge from the ground up, making complex topics easy to follow.
+            </p>
           </div>
 
-          {/* Right Side: Content */}
-          <div className="flex flex-col justify-center space-y-8">
-            <div className="space-y-4">
-              <p className="text-blue-800 font-semibold tracking-[0.2em] uppercase text-[12px]">Our Core Mission</p>
-              <h2 className="text-3xl md:text-5xl font-semibold leading-tight tracking-tight">
-                Dedicated to <span className="text-blue-800">Email Knowledge.</span>
-              </h2>
-              <p className="text-[17px] text-zinc-600 leading-relaxed font-normal max-w-xl">
-                At Yagamail, we believe in empowering users through clear, actionable information. Our mission is to provide comprehensive guides that help you navigate the complexities of digital communication with confidence.
-              </p>
+          <div className="group p-2">
+            <div className="w-12 h-12 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300">
+              <Shield className="w-6 h-6 stroke-[2]" />
             </div>
+            <h3 className="text-lg font-bold text-zinc-900 mb-3">Safety & Privacy</h3>
+            <p className="text-[15px] text-zinc-600 leading-relaxed">
+              We put your security first, offering proven methods to keep your personal data protected and your accounts secure.
+            </p>
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="p-7 rounded-[2rem] bg-white border border-zinc-100 shadow-sm transition-all hover:shadow-lg">
-                <div className="w-10 h-10 bg-blue-50 text-blue-800 rounded-xl flex items-center justify-center mb-4">
-                  <ShieldCheck className="w-5 h-5" />
-                </div>
-                <h3 className="text-[18px] font-bold text-zinc-900 mb-2 tracking-tight">Security Guides</h3>
-                <p className="text-[15px] text-zinc-600 leading-relaxed">
-                  Learn the best practices to keep your personal information safe.
-                </p>
-              </div>
-
-              <div className="p-7 rounded-[2rem] bg-white border border-zinc-100 shadow-sm transition-all hover:shadow-lg">
-                <div className="w-10 h-10 bg-green-50 text-green-700 rounded-xl flex items-center justify-center mb-4">
-                  <Target className="w-5 h-5" />
-                </div>
-                <h3 className="text-[18px] font-bold text-zinc-900 mb-2 tracking-tight">Step-by-Step Tutorials</h3>
-                <p className="text-[15px] text-zinc-600 leading-relaxed">
-                  Easy-to-follow instructions for all major email configurations.
-                </p>
-              </div>
+          <div className="group p-2">
+            <div className="w-12 h-12 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-amber-600 group-hover:text-white transition-all duration-300">
+              <Lightbulb className="w-6 h-6 stroke-[2]" />
             </div>
+            <h3 className="text-lg font-bold text-zinc-900 mb-3">Practical Insights</h3>
+            <p className="text-[15px] text-zinc-600 leading-relaxed">
+              Real-world tips and straightforward explanations that turn technical hurdles into simple, solvable tasks.
+            </p>
+          </div>
+
+          <div className="group p-2">
+            <div className="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+              <Zap className="w-6 h-6 stroke-[2]" />
+            </div>
+            <h3 className="text-lg font-bold text-zinc-900 mb-3">Fast Results</h3>
+            <p className="text-[15px] text-zinc-600 leading-relaxed">
+              Find the answers you need quickly with our concise and focused guides, tailored for modern digital efficiency.
+            </p>
           </div>
         </div>
       </div>

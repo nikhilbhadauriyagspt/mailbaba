@@ -7,15 +7,15 @@ const PrivacyPolicy = () => {
 
         <div className="prose prose-zinc max-w-none text-[16px] leading-relaxed text-zinc-700 space-y-8">
           <p>
-            This Privacy Notice for <strong>Yagamail</strong> ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:
+            This Privacy Notice for <strong>MailBaba</strong> ("we," "us," or "our"), describes how and why we might access, collect, store, use, and/or share ("process") your personal information when you use our services ("Services"), including when you:
           </p>
           <ul className="list-disc pl-6 space-y-2 font-medium">
-            <li>Visit our website at <a href="https://yagamail.shop/" className="text-blue-800 underline">https://yagamail.shop/</a> or any website of ours that links to this Privacy Notice</li>
-            <li>Use Yagamail. At Yagamail, we focus on providing high-quality educational guides and resources to help users manage their email accounts effectively. Our business is built on providing clarity and informative content.</li>
+            <li>Visit our website at <a href="https://mailbaba.co/" className="text-blue-800 underline">https://mailbaba.co/</a> or any website of ours that links to this Privacy Notice</li>
+            <li>Use MailBaba. At MailBaba, we focus on providing high-quality educational guides and resources to help users manage their email accounts effectively. Our business is built on providing clarity and informative content.</li>
             <li>Engage with us in other related ways, including any marketing or events</li>
           </ul>
           <p>
-            Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <span className="text-blue-800 font-medium">info@yagamail.shop</span>.
+            Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <span className="text-blue-800 font-medium">info@mailbaba.co</span>.
           </p>
 
           <div className="bg-zinc-50 p-8 rounded-3xl border border-zinc-100 space-y-6">
@@ -145,7 +145,7 @@ const PrivacyPolicy = () => {
             <section className="space-y-4">
               <h2 className="text-2xl font-bold text-zinc-900">9. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
               <p><em><strong>In Short:</strong> Depending on your state of residence in the US or in some regions, such as Canada, you have rights that allow you greater access to and control over your personal information.</em></p>
-              <p>In some regions (like Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. You can make such a request by contacting us at <span className="text-blue-800 font-medium">info@yagamail.shop</span>.</p>
+              <p>In some regions (like Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. You can make such a request by contacting us at <span className="text-blue-800 font-medium">info@mailbaba.co</span>.</p>
             </section>
 
             <section className="space-y-4">
@@ -157,7 +157,7 @@ const PrivacyPolicy = () => {
               <h2 className="text-2xl font-bold text-zinc-900">11. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
               <p><em><strong>In Short:</strong> If you are a resident of certain US states, you may have specific rights regarding your personal information.</em></p>
               <p>We have not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. We will not sell or share personal information in the future belonging to website visitors, users, and other consumers.</p>
-              <p>To exercise your rights, you can contact us by emailing us at <span className="text-blue-800 font-medium">info@yagamail.shop</span>.</p>
+              <p>To exercise your rights, you can contact us by emailing us at <span className="text-blue-800 font-medium">info@mailbaba.co</span>.</p>
             </section>
 
             <section className="space-y-4">
@@ -168,8 +168,8 @@ const PrivacyPolicy = () => {
 
             <section className="space-y-4">
               <h2 className="text-2xl font-bold text-zinc-900">13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
-              <p>If you have questions or comments about this notice, you may email us at <span className="text-blue-800 font-medium">info@yagamail.shop</span> or contact us by post at:</p>
-              <p className="font-bold text-zinc-900">Yagamail Team</p>
+              <p>If you have questions or comments about this notice, you may email us at <span className="text-blue-800 font-medium">info@mailbaba.co</span> or contact us by post at:</p>
+              <p className="font-bold text-zinc-900">MailBaba Team</p>
             </section>
 
             <section className="space-y-4">

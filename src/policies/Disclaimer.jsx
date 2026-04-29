@@ -9,7 +9,7 @@ const Disclaimer = () => {
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-zinc-900 uppercase">General Disclaimer</h2>
             <p>
-              The information provided by <strong>Yagamail</strong> ("we," "us," or "our") on <a href="https://yagamail.shop" className="text-blue-800 underline">https://yagamail.shop</a> (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site.
+              The information provided by <strong>MailBaba</strong> ("we," "us," or "our") on <a href="https://mailbaba.co" className="text-blue-800 underline">https://mailbaba.co</a> (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site.
             </p>
           </div>
 

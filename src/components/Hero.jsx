@@ -10,7 +10,11 @@ const Hero = () => {
           <img 
             src="/ban1.avif" 
             alt="Educational Email Guides Banner" 
-            className="w-full h-auto max-h-[90vh] object-contain md:object-cover lg:object-fill object-center mx-auto"
+            width="1935"
+            height="813"
+            fetchPriority="high"
+            sizes="(max-width: 640px) 100vw, 1935px"
+            className="w-full h-auto object-cover object-center mx-auto"
           />
         </Link>
       </div>

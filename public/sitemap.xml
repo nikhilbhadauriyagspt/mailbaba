@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yagamail.shop/</loc>
+    <loc>https://mailbaba.co/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yagamail.shop/guides</loc>
+    <loc>https://mailbaba.co/guides</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yagamail.shop/contact</loc>
+    <loc>https://mailbaba.co/contact</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yagamail.shop/privacy</loc>
+    <loc>https://mailbaba.co/privacy</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://yagamail.shop/terms</loc>
+    <loc>https://mailbaba.co/terms</loc>
     <priority>0.3</priority>
   </url>
 </urlset>

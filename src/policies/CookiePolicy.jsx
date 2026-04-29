@@ -7,7 +7,7 @@ const CookiePolicy = () => {
 
         <div className="space-y-12 text-[17px] leading-relaxed text-zinc-700">
           <p>
-            This Cookie Policy explains how yagamail (“Company,” “we,” “us,” or “our”) uses cookies and similar tracking technologies when you visit our website <a href="http://yagamail.shop/" className="text-blue-800 underline">http://yagamail.shop/</a> (the “Website”). This policy should be read together with our <strong>PRIVACY POLICY</strong> and <strong>TERMS OF SERVICE</strong>.
+            This Cookie Policy explains how MailBaba (“Company,” “we,” “us,” or “our”) uses cookies and similar tracking technologies when you visit our website <a href="http://mailbaba.co/" className="text-blue-800 underline">http://mailbaba.co/</a> (the “Website”). This policy should be read together with our <strong>PRIVACY POLICY</strong> and <strong>TERMS OF SERVICE</strong>.
           </p>
 
           <div className="space-y-4">
@@ -20,7 +20,7 @@ const CookiePolicy = () => {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-zinc-900">2. How We Use Cookies</h2>
-            <p>yagamail uses cookies and similar technologies to:</p>
+            <p>MailBaba uses cookies and similar technologies to:</p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Ensure the Website functions properly</li>
               <li>Maintain security and prevent fraudulent activity</li>
@@ -68,7 +68,7 @@ const CookiePolicy = () => {
 
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-zinc-900">6. Do Not Track Signals</h2>
-            <p>Some browsers offer a “Do Not Track” (DNT) feature. At this time, there is no uniform industry standard for recognizing DNT signals, and yagamail does not currently respond to such signals <strong>PRIVACY POLICY</strong>.</p>
+            <p>Some browsers offer a “Do Not Track” (DNT) feature. At this time, there is no uniform industry standard for recognizing DNT signals, and MailBaba does not currently respond to such signals <strong>PRIVACY POLICY</strong>.</p>
           </div>
 
           <div className="space-y-4">
@@ -80,8 +80,8 @@ const CookiePolicy = () => {
             <h2 className="text-2xl font-semibold text-zinc-900">8. Contact Us</h2>
             <p>If you have questions or concerns about this Cookie Policy or our use of cookies, you may contact us at:</p>
             <div className="font-bold text-zinc-900">
-              <p>yagamail</p>
-              <p>Email: info@yagamail.shop</p>
+              <p>MailBaba</p>
+              <p>Email: info@mailbaba.co</p>
             </div>
           </div>
         </div>

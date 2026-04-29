@@ -8,16 +8,16 @@ const TermsOfService = () => {
         <div className="prose prose-zinc max-w-none text-[16px] leading-relaxed text-zinc-700 space-y-10">
           <section className="space-y-4">
             <h2 className="text-2xl font-bold text-zinc-900 uppercase">AGREEMENT TO OUR LEGAL TERMS</h2>
-            <p>We are <strong>Yagamail</strong> ("Company," "we," "us," or "our"),</p>
+            <p>We are <strong>MailBaba</strong> ("Company," "we," "us," or "our"),</p>
             <p>
-              We operate the website <a href="https://yagamail.shop/" className="text-blue-800 underline">https://yagamail.shop/</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
+              We operate the website <a href="https://mailbaba.co/" className="text-blue-800 underline">https://mailbaba.co/</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
             </p>
             <p>
-              Yagamail is an educational platform dedicated to providing comprehensive guides and tutorials for email management. We aim to empower users with the knowledge needed to navigate digital communication effectively and securely.
+              MailBaba is an educational platform dedicated to providing comprehensive guides and tutorials for email management. We aim to empower users with the knowledge needed to navigate digital communication effectively and securely.
             </p>
-            <p>You can contact us by email at <span className="text-blue-800 font-medium">info@yagamail.shop</span></p>
+            <p>You can contact us by email at <span className="text-blue-800 font-medium">info@mailbaba.co</span></p>
             <p>
-              These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Yagamail Team, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
+              These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and MailBaba Team, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
             </p>
             <p>
               Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms at any time and for any reason. We will alert you about any changes by updating the "Last updated" date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.
@@ -77,7 +77,7 @@ const TermsOfService = () => {
               </ul>
               <p>solely for your personal, non-commercial use or internal business purpose.</p>
               <p>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.</p>
-              <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: info@yagamail.shop.</p>
+              <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: info@mailbaba.co.</p>
               
               <h3 className="text-xl font-bold text-zinc-800">Your submissions</h3>
               <p>Please review this section and the "PROHIBITED ACTIVITIES" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.</p>
@@ -139,7 +139,7 @@ const TermsOfService = () => {
 
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-zinc-900 uppercase">8. PRIVACY POLICY</h2>
-              <p>We care about data privacy and security. Please review our Privacy Policy: <a href="https://yagamail.shop/privacy-policy" className="text-blue-800 underline">https://yagamail.shop/privacy-policy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms.</p>
+              <p>We care about data privacy and security. Please review our Privacy Policy: <a href="https://mailbaba.co/privacy-policy" className="text-blue-800 underline">https://mailbaba.co/privacy-policy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms.</p>
             </div>
 
             <div className="space-y-4">
@@ -206,8 +206,8 @@ const TermsOfService = () => {
               <h2 className="text-2xl font-bold text-zinc-900 uppercase">21. CONTACT US</h2>
               <p>In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:</p>
               <div className="font-bold text-zinc-900">
-                <p>Yagamail Team</p>
-                <p>info@yagamail.shop</p>
+                <p>MailBaba Team</p>
+                <p>info@mailbaba.co</p>
               </div>
             </div>
           </section>
