@@ -61,7 +61,7 @@ const Header = () => {
           {/* Left: Logo */}
           <div className="flex-1 flex justify-start">
             <button onClick={() => handleNavClick('/')} className="flex items-center">
-              <img src="/logo.avif" alt="MailBaba logo" width="160" height="40" className="h-15 w-auto object-contain" />
+              <img src="/logo.avif" alt="MailBaba logo" width="160" height="40" className="h-15 opacity-0 w-auto object-contain" />
             </button>
           </div>
 
